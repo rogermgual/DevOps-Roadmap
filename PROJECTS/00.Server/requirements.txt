@@ -1,1 +1,13 @@
-helloWorld
+Previsión de los requerimientos
+CPU: 8 Cores (2 per node)
+RAM: 8GB(x1) + 4GB(x2) + 2GB(x1)
+DISK: 500GB (SSD) + 1TB+ (HDD)
+4 nodes = 1 Master, 3 Workers
+
+Cluster Structure
+1 Master node => low specs
+3 Workers node => 1 Big Node + 2 Small/Backup Nodes
+
+Master Node: 2Cores, 2GB Ram
+Main Worker: 2 Cores, 8GB Ram
+Backup Nodes: 2 Cores, 4GB Ram (each)
